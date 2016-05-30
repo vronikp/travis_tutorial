@@ -59,11 +59,11 @@ def detalles_paciente(request,pk):
 
 
 
-def pacientes_por_diagnosticos(request):
-    """Vista en formato funcion que muestra todos los pacientes ingresados
-    en la base de datos.
-    """
-    if request.method == 'GET':
-        consultas = Consulta.objects.all().distinct('codigo_diagnostico')
-        context = {'diagnosticos':consultas}
-        return render(request,'pacientes_por_diagnostico.tpl.html',context)
+# def pacientes_por_diagnosticos(request):
+#     """Vista basada en funcion que muestra todas las consultas a la base de
+#     datos.
+#     """
+#     if request.method == 'GET':
+#         consultas = Consulta.objects.all()
+#         context = {'diagnosticos':consultas}
+#         return render(request,'pacientes_por_diagnostico.tpl.html',context)
