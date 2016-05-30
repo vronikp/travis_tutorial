@@ -4,7 +4,7 @@ python:
 
 before_install:
   - "pip install -r requeriments.txt"
-  - "pip install coveralls"
+
 
 script:
-  "coverage manage.py test"
+  "coverage run manage.py test"
