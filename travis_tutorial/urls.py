@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from ingreso_pacientes.views import listar_crear_paciente,detalles_paciente, pacientes_por_diagnosticos
+from ingreso_pacientes.views import listar_crear_paciente,detalles_paciente#, pacientes_por_diagnosticos
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
