@@ -3,7 +3,8 @@ Este proyecto fue creado con la finalidad de explicar el funcionamiento de Travi
 El proyecto con tiene el siguiente esquema:
 
 * **ingreso_pacientes:** carpeta que contiene la aplicacion principal 
-··* admin.py: archivo que contiene 
+
+..* admin.py: archivo que contiene 
 
 * **travis_tutorial:** carpeta que contiene archivos de configuración del proyecto
 
