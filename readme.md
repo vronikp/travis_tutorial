@@ -15,3 +15,5 @@ El proyecto con tiene el siguiente esquema:
 * **requeriments.txt:** archivo que contiene las dependencias del proyecto Django
 
 * **pytest.ini:** archivo para configurar el proyecto com pytest
+
+[![Coverage Status](https://coveralls.io/repos/github/rbalda/travis_tutorial/badge.svg?branch=master)](https://coveralls.io/github/rbalda/travis_tutorial?branch=master)
