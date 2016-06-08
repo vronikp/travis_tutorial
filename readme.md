@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rbalda/travis_tutorial.svg?branch=master)](https://travis-ci.org/rbalda/travis_tutorial)
+[![Coverage Status](https://coveralls.io/repos/github/rbalda/travis_tutorial/badge.svg?branch=master)](https://coveralls.io/github/rbalda/travis_tutorial?branch=master)
 #Ejemplo Django(Python) con Travis CI
 Este proyecto fue creado con la finalidad de explicar el funcionamiento de Travis CI con un proyecto real creado en Django:
 El proyecto con tiene el siguiente esquema:
@@ -16,4 +18,4 @@ El proyecto con tiene el siguiente esquema:
 
 * **pytest.ini:** archivo para configurar el proyecto com pytest
 
-[![Coverage Status](https://coveralls.io/repos/github/rbalda/travis_tutorial/badge.svg?branch=master)](https://coveralls.io/github/rbalda/travis_tutorial?branch=master)
+
