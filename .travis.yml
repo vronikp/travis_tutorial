@@ -7,7 +7,7 @@ before_install:
 
 
 script:
-  - "coverage run --source=ingreso_pacientes manage.py ingreso_pacientes"
+  - "coverage run --source=ingreso_pacientes manage.py test ingreso_pacientes"
   - "py.test"
 
 after_script:
