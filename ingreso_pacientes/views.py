@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 from ingreso_pacientes.forms import PacienteForm, HistoriaClinicaForm, ConsultaForm
-from ingreso_pacientes.models import Paciente, HistoriaClinica, Consulta
+from ingreso_pacientes.models import HistoriaClinica, Consulta
 
 
 def listar_crear_paciente(request):
@@ -57,8 +57,13 @@ def detalles_paciente(request,pk):
         }
         return render(request,'detalle_historia.tpl.html',context)
 
-def pacientes_por_diagnosticos(request):
-    if request.method == 'GET':
-        consultas = Consulta.objects.all().distinct('codigo_diagnostico')
-        context = {'diagnosticos':consultas}
-        return render(request,'pacientes_por_diagnostico.tpl.html',context)
+
+
+# def pacientes_por_diagnosticos(request):
+#     """Vista basada en funcion que muestra todas las consultas a la base de
+#     datos.
+#     """
+#     if request.method == 'GET':
+#         consultas = Consulta.objects.all()
+#         context = {'diagnosticos':consultas}
+#         return render(request,'pacientes_por_diagnostico.tpl.html',context)
