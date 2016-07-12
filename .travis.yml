@@ -10,5 +10,6 @@ script:
   - "coverage run --source=ingreso_pacientes manage.py test ingreso_pacientes"
   - "py.test"
 
+
 after_script:
   "coveralls"
